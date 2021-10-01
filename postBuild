@@ -1,5 +1,6 @@
 #!/bin/sh
 
-RUN apt-get update && apt-get install -y apt-transport-https
-RUN apt-get install --yes libgl1-mesa-glx 
-RUN apt-get install --yes libglu1-mesa 
+apt-get update && apt-get upgrade -y
+apt-get install -y apt-transport-https
+apt-get install --yes libgl1-mesa-glx 
+apt-get install --yes libglu1-mesa 
