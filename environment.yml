@@ -1,13 +1,16 @@
 channels:
-  - defaults
-  - cadquery
   - conda-forge
+  - pythonocc
 dependencies:
-  - python=3.8
-  - pip=21.0
-  - cadquery=2.1
-  - matplotlib=3.3
+  - python
+  - numpy
+  - pythonocc
+  - pythonocc-core
+  - pythreejs
+  - smesh
+  - pip
   - pip:
-    - jupyter-cadquery==2.2.0
-    - cadquery-massembly~=0.9
-    - orbitcontrol-patch~=0.1.0
+    - pandas
+    - matplotlib
+    
+ conda install -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core==0.18.1 python=3.5
