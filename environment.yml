@@ -1,10 +1,14 @@
 channels:
   - conda-forge
+  - dlr-sc
+  - pythonocc 
+  - oce
 dependencies:
   - python
   - numpy
   - mesa-libgl-cos6-x86_64
   - mesa-libgl-devel-cos7-ppc64le
+  - pythonocc
   - pythonocc-core
   - pythreejs
   - smesh
