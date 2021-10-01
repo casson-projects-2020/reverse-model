@@ -1,5 +1,0 @@
-#!/bin/sh
-
-apt-get install -y apt-transport-https
-apt-get install --yes libgl1-mesa-glx 
-apt-get install --yes libglu1-mesa 
