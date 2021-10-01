@@ -3,6 +3,8 @@ channels:
 dependencies:
   - python
   - numpy
+  - mesa-libgl-cos6-x86_64
+  - mesa-libgl-devel-cos7-ppc64le
   - pythonocc-core
   - pythreejs
   - smesh
