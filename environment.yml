@@ -12,5 +12,4 @@ dependencies:
   - pip:
     - pandas
     - matplotlib
-    
- conda install -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core==0.18.1 python=3.5
+
