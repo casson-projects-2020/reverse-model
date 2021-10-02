@@ -1,0 +1,6 @@
+#!/bin/sh
+
+apt-get update
+apt-get install software-properties-common -y
+add-apt-repository ppa:openscad/releases -y
+apt-get install openscad -y
